@@ -24,7 +24,18 @@ export default function App() {
         <p>centering div horizontally using width and margin auto properties</p>
       </div>
       <div className="container7">
-        <p>To center a div vertically and horizontally in a page using top,left and transform properties</p>
+        <p>
+          To center a div vertically and horizontally in a page using top,left
+          and transform properties
+        </p>
+      </div>
+      <div className="parent">
+        <div className="child">
+          <p>
+            To center a div within a div vertically and horizontally in a page
+            using top,left and transform properties
+          </p>
+        </div>
       </div>
     </div>
   );
