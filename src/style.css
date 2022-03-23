@@ -3,7 +3,6 @@ h1, p {
 }
 div>div{
   border: 1px solid blue;
-
   margin:10px ;
 }
 .container{
@@ -64,4 +63,25 @@ transform: translate(-50%, -50%);;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.rectangle{
+  position: relative;
+  width:200px;
+  height: 200px;
+  border-radius: 4px;
+  border:1px solid rgb(160, 159, 159);
+  background-color: rgb(160, 159, 159);
+  top: 50%;
+  left:50%;
+}
+.circle{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 0;
+  left:0;
+  border-radius: 50%;
+  background-color: burlywood;
+  border:1px solid burlywood;
 }
